@@ -1,0 +1,41 @@
+a:hover{
+  background-color:gray;
+  color:whitesmoke;
+}
+a:active{
+  background-color: green;
+  color:yellow;
+}
+h1,h2,p {
+  color: white
+}
+main{
+  font-family:Cochin, serif;
+  text-align:justify;
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
+  line-height:25px;
+}
+h1::first-letter{
+  font-size:2em;
+}
+nav a{
+  text-decoration:none
+}
+a[target="_blank"]{
+  color:blue;
+  background-color:white;
+  
+}
+body {
+  background-image:url(https://solarsystem.nasa.gov/internal_resources/4319/);
+  background-repeat:no-repeat;
+  
+}
+
+Nav a {
+display:inline-block;
+padding:15px;
+Margin:10px;
+}
